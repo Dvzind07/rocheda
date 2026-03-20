@@ -1,0 +1,41 @@
+   @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+body {
+    background-color: black;
+}
+header {
+    padding: 32px;
+    border-bottom: 1px solid #333;
+    background-color: #225;
+}
+header div {
+    text-align:center; /* Alinhamento no meio do header */
+}
+header div a {
+    color: white; /*a cor do texto */
+    font-size: 20px; /* tamanho da fonte */
+    line-height: 30px; /* espaçamento da linha do texto */
+    margin: 0 16px; /* espaçamento entre texto */
+    text-decoration: none; /* retirar decoração do texto*/
+    font-family: 'Oswald' sans-serif; /* a fonte escolhida pro menu */
+}
+header div a:houver { /*seleção do modo quando mouse passar por cima "houver"*/
+color: green; /* mudar para cor verde*/
+transition: color 700ms; /* e fazer uma transição de cor que dura 700ms*/
+}
+#box {
+    text-align: center; /*alinhamento no meio do body*/
+    padding: 32px; /* distancia dos outros elementos*/
+}
+#box img {
+    border-radius: 50%; /*adiciona uma borda redonda na imagem/ */
+    border: 5px solid #6e026e; /* adicona uma cor a borda da imagem*/
+    margin-bottom: 32px; /*distancia da margem inferior dos outros elementos*/
+}
+:root{ /*iniciando a variavel*/
+    --subcor: #57a615; /* nomeando a variavel --subcor e guardando uma cor nela. */   
+} /* Fechando a o bloco da variavel root.*/
+header {
+    padding: 32px;
+    border-bottom: 3px solid #57a615;
+    background-color: rgba(rgb(255, 255, 255));
+}
