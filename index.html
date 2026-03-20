@@ -1,16 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <style>
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 body {
     background-color: black;
 }
 header {
     padding: 32px;
     border-bottom: 1px solid #333;
-    background-color: rgba(0,0,0,0.1);
+    background-color: #225;
+}
+header div {
+    text-align:center; /* Alinhamento no meio do header */
+}
+header div a {
+    color: white; /*a cor do texto */
+    font-size: 20px; /* tamanho da fonte */
+    line-height: 30px; /* espaçamento da linha do texto */
+    margin: 0 16px; /* espaçamento entre texto */
+    text-decoration: none; /* retirar decoração do texto*/
+    font-family: 'Oswald' sans-serif; /* a fonte escolhida pro menu */
+}
+header div a:houver { /*seleção do modo quando mouse passar por cima "houver"*/
+color: green; /* mudar para cor verde*/
+transition: color 700ms; /* e fazer uma transição de cor que dura 700ms*/
 }
 </style>
-
+*{
+    margin:0;
+    padding: 0;
+    border: 0;
+}
 
 
 <head>
